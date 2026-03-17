@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Контакты</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, intial-scale=1"/>
+    <link rel="stylesheet" href="styles/style.css"/>
+    <link rel="stylesheet" href="styles/adaptive.css"/>
+</head>
+<body>
+<main class="main">
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo"/>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="#cars">Автомобили</a>
+                    </li>
+                    <li>
+                        <a href="#order">Бронирование</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="tel:+971523898989" class="phone">+7 (999) 123-45-67</a>
+        </div>
+    </header>
+    <section class="main-content">
+        <div class="container">
+            <div class="main-info">
+                <h1>Ваш идеальный автомобиль — всегда под рукой!</h1>
+                <p>
+                    От стильных спорткаров, которые дарят ощущение скорости и динамики, до внедорожников, способных
+                    пройти любые препятствия.
+                </p>
+                <a href="#order" class="button">
+                    Забронировать</a>
+                <a href="#cars" class="button" id="main-action-button">
+                    Смотреть каталог</a>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+
+
+<section class="order" id="order">
+    <div class="container">
+        <img src="images/main-car1.png" alt="order-car"/>
+        <form>
+            <h3>Забронируйте машину</h3>
+            <p>
+                Оставьте свои контактные данные и мы перезвоним для подтверждения брони
+            </p>
+            <div class="order-form">
+                <input type="text" placeholder="Автомобиль" id="car"/>
+                <input type="text" placeholder="Ваше имя" id="name"/>
+                <input type="text" placeholder="Ваш телефон" id="phone"/>
+                <button class="button" type="button" id="order-action">
+                    Забронировать
+                </button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="first">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo"/>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="#cars">Автомобили</a>
+                    </li>
+                    <li>
+                        <a href="#order">Бронирование</a>
+                    </li>
+                    <li>
+                        <a href="tel:+971523898989" class="phone">+7 (999) 123-45-67</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+        <div class="rights">© 2026 TravelCar. Все права защищены.</div>
+    </div>
+</footer>
+
+<script src="scripts/script.js"></script>
+</body>
+</html>
